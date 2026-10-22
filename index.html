@@ -1,136 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRIN135-PrelimExam</title>
-  </head>
 
-  <body>
-    <header>
-      <nav aria-label="Main Navigation">
-        <a href="#profile">Profile</a> |
-        <a href="#skills">Skills</a> |
-        <a href="#education">Education</a> |
-        <a href="#awards">Awards and Achievements</a> |
-        <a href="#contact">Contact Me</a>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PRIN135 - Midterm Exam | Portfolio</title>
+</head>
+
+<body id="top">
+
+    <!-- ---------- Navigation ---------- -->
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ---------- Header ---------- -->
+    <header class="site-header">
+        <div class="header-inner clearfix">
+
+            <div class="photo-box">
+                <div class="photo-frame">
+                    <!-- Replace the image with your own profile picture -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uJaaix7NTDdfYe858BGu3BQOf2010G9vtsKTo6Vge5Z7CVUPRA2o4w0&s=10"
+                    alt="Profile photo of Pvnk1t"
+                    width="160"
+                    height="160">
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h1 class="name">Pvnk1t</h1>
+                <ul class="header-links">
+                    <li><a href="tel:+639917419947">09917419947</a></li>
+                    <li><a href="mailto:manansala2434748@mls.ceu.edu.ph">manansala2434748@mls.ceu.edu.ph</a></li>
+                    <li><a href="https://github.com/y0wkee" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+                <p class="profile">
+                    PVNK1T is a popular online cosplayer and content creator best known for their My Hero Academia costumes, particularly Katsuki Bakugou and Izuku Midoriya.
+                </p>
+            </div>
+        </div>
     </header>
 
-    <main>
+    <main class="wrapper">
 
-      <section id="profile">
-        <h1>Profile</h1>
-
-        <figure>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0uJaaix7NTDdfYe858BGu3BQOf2010G9vtsKTo6Vge5Z7CVUPRA2o4w0&s=10"
-            alt="Profile photo of Pvnk1t"
-            width="160"
-            height="160">
-        </figure>
-
-        <h2>Pvnk1t</h2>
-
-        <address>
-          <a href="mailto:manansala2434748@mls.ceu.edu.ph">manansala2434748@mls.ceu.edu.ph</a> |
-          <a>09917419947</a> |
-          <a href="https://github.com/y0wkee"
-            target="_blank"
-            rel="noopener noreferrer">
-            profile.github.com
-          </a>
-        </address>
-
-        <article>
-          <p>PVNK1T is a popular online cosplayer and content creator best known for their My Hero Academia costumes, particularly Katsuki Bakugou and Izuku Midoriya.
-        </article>
-      </section>
-
-      <section id="skills" aria-labelledby="skills-heading">
-        <h2 id-"skills-heading">Skills</h2>
-
-        <ul>
-          <li>tapusin buong one piece isang araw</li>
-          <li>magpaiyak ng bata sa roblox</li>
-          <li>me spiderman</li>
-        </ul>
-      </section>
-
-      <section id="education" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
-
-        <ul>
-          <li>harvard law school</li>
-          <li>gacha life graduate</li>
-          <li>no to pax silica</li>
-        </ul>
-      </section>
-
-      <section id="awards" aria-labelledby="awards-heading">
-        <h2 id="awards-heading">Awards and Achievements</h2>
-
-        <ul>
-          <li>plat peak rank</li>
-          <li>dumpling squishy</li>
-          <li>mang-scam sa growtopia</li>
-        </ul>
-      </section>
-
-      <section id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact Me</h2>
-
-        <form action="#" method="post">
-
-        <div>
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Pvnk1t"
-            maxlength="25"
-            required
-            autocomplete="name"
-          >
-          </div>
-
-          <div>
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="pvnk1t@email.com"
-              maxlength="25"
-              required
-              autocomplete="email"
-            >
-          </div>
-
-          <div>
-            <label for="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Enter your message here."
-              maxlength="255"
-              required
-            ></textarea>
-          </div>
-
-          <button type="submit">Contact Me</button>
-
-          </form>
+        <!-- ---------- Skills ---------- -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>tapusin buong one piece isang araw</li>
+                <li>magpaiyak ng bata sa roblox</li>
+                <li>me spiderman</li>
+            </ul>
         </section>
 
-        <footer>
-          <nav aria-label="Footer Navigation">
-            <a href="#profile">Profile</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#education">Education</a> |
-            <a href="#awards">Awards and Achievements</a> |
-            <a href="#contact">Contact Me</a>
-          </nav>
-        </footer>
+        <!-- ---------- Education ---------- -->
+        <section id="education" class="card">
+            <h2>Education</h2>
+
+            <div class="entry">
+                <span class="entry-year">2023 - Present</span>
+                <h3>harvard law school</h3>
+                <p class="entry-school">Central Escolar University</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">2021 - 2023</span>
+                <h3>gacha life graduate</h3>
+                <p class="entry-school">Ipad Kid University</p>
+            </div>
+
+            <div class="entry">
+                <span class="entry-year">2021 - 2023</span>
+                <h3>no to pax silica</h3>
+                <p class="entry-school">Clark, Pampanga</p>
+            </div>
+        </section>
+
+        <!-- ---------- Achievements ---------- -->
+        <section id="achievements" class="card">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>
+                    <strong>plat peak rank</strong> - Season V26, Act 6 - 2026
+                </li>
+                <li>
+                    <strong>dumpling squishy</strong> - 2025
+                </li>
+                <li>
+                    <strong>mang-scam sa growtopia</strong> - 2024
+                </li>
+                <li>
+                    <strong>GitHub Project Collaborator 2026</strong> - freeCodeCamp - 2026
+                </li>
+            </ul>
+        </section>
+
+        <!-- ---------- Contact me ---------- -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row clearfix">
+                    <div class="field field-left">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="field field-right">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
     </main>
-  </body>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class="site-footer">
+        <p class="footer-name">Pvnk1t &middot; Portfolio</p>
+        <a href="#top" class="back-to-top">Back to top &uarr;</a>
+    </footer>
+
+</body>
+
 </html>
